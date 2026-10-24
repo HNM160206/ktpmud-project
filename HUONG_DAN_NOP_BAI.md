@@ -19,7 +19,7 @@ ví dụ. Nhóm khác thay tên thư mục, slug, MSSV cho đúng của mình.
 | Nhánh (branch) | `submit/<case_study_slug>-<mã lớp>_<số nhóm>` | `submit/dai_thao_duong-173820_n01` |
 | Tên file | Không dấu, không khoảng trắng, **không họ tên** | `report/BaoCao_Tuan6.docx` |
 
-Slug hợp lệ: `may_day`, `suy_tim`, `alzheimer`, `dreye`, `dai_thao_duong`. Chỉ chữ thường, số,
+Slug hợp lệ: `may_day`, `suy_tim`, `alzheimer`, `dreye`, `dai_thao_duong`, `nha_cho_thue`, `ban_do_lich_su`, `ke_hoach_hoc_tap`. Chỉ chữ thường, số,
 gạch dưới.
 
 Cấu trúc thư mục:
@@ -48,6 +48,10 @@ submissions/dai_thao_duong_173820_n01/
 
 `members` ghi **MSSV**, không ghi họ tên. `scenario` chỉ dùng cho CS-1; đề khác ghi
 `khong_ap_dung`.
+
+> **Thư mục nhóm đã có sẵn trên `main`?** Lớp 173820: bài tuần 6 của các nhóm N01, N02, N03,
+> N27, N43 đã được giảng viên đưa lên. Các tuần sau chỉ cần tạo nhánh, **thêm file mới** vào đúng
+> thư mục đó (bỏ qua bước tạo `submission.json`/`README.md`) rồi mở PR như bước 3.
 
 ## 2a. Nộp bằng trình duyệt (dễ nhất, không cần cài gì)
 
