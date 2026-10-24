@@ -2,7 +2,7 @@
 
 - **Case study:** CS-6 — website quản lý nhà trọ / chung cư mini cho thuê (đề nhóm đề xuất)
 - **Nhóm:** 173820_n43 (lớp 173820, nhóm N43)
-- **Trạng thái:** Báo cáo quá trình tuần 7 — Bổ sung mục lục, kiển trúc, user story, RTM và  
+- **Trạng thái:** Báo cáo quá trình tuần 7 — Bổ sung mục lục, kiển trúc, user story, RTM và ERD
 
 ## Phạm vi chức năng
 
