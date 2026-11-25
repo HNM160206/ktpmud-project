@@ -1,4 +1,4 @@
-# Phần mềm Quản lý Nhà cho thuê (Nhà 57 Giảng Võ) — CS6: nha_cho_thue_N43
+# Phần mềm Quản lý Nhà cho thuê (Nhà 57 Giảng Võ) — nha_cho_thue_N43
 
 > Ứng dụng web quản lý nhà cho thuê tập trung giúp chủ nhà vận hành phòng, người thuê, hợp đồng, điện nước, hóa đơn, công nợ và hỗ trợ người thuê tra cứu minh bạch, gửi báo cáo sự cố trực tuyến.
 
@@ -65,16 +65,13 @@ npm run dev:frontend
 ## 5. Hướng phát triển Tuần 11–15
 | Tuần | Mục tiêu | Đầu việc chính | Phụ trách (MSSV) | Tiêu chí hoàn thành | Trạng thái |
 |:---:|---|---|---|---|:---:|
-| 11 | Hoàn thiện & rà soát nghiệp vụ | Rà soát đầy đủ FR01–FR32, bổ sung validate biên và xử lý lỗi API/UI |  | 100% chức năng chạy ổn định không lỗi console | ⬜ |
-| 12 | Kiểm thử tự động | Viết test API (auth, phân quyền 403, ràng buộc xóa phòng/người thuê, tính hóa đơn) |  | Toàn bộ test case pass, độ phủ luồng chính đạt yêu cầu | ⬜ |
-| 13 | Nâng cao báo cáo & xuất dữ liệu | Bổ sung xuất bảng thống kê doanh thu/công nợ (Excel/CSV), tối ưu truy vấn dashboard |  | Xuất file đúng số liệu, thời gian tải dashboard ≤ 2s | ⬜ |
-| 14 | Kiểm thử hiệu năng & bảo mật | Đo tải NFR01–NFR08 với dữ liệu lớn, kiểm tra băm mật khẩu và phân quyền (NFR09–NFR10) |  | Đạt chỉ tiêu phản hồi API và không rò rỉ quyền truy cập | ⬜ |
-| 15 | Đóng gói, triển khai & báo cáo | Hoàn thiện bản triển khai, quay video demo, chụp ảnh màn hình và hoàn tất báo cáo cuối kỳ |  | Có bản demo chạy online, tài liệu và slide bảo vệ đầy đủ | ⬜ |
+| 11 | Hoàn thiện & rà soát nghiệp vụ | Rà soát đầy đủ FR01–FR32, bổ sung validate biên và xử lý lỗi API/UI | 202414351 | 100% chức năng chạy ổn định không lỗi console | ✅ |
+| 12 | Kiểm thử tự động | Viết test API (auth, phân quyền 403, ràng buộc xóa phòng/người thuê, tính hóa đơn) | 202414266 | Toàn bộ test case pass, độ phủ luồng chính đạt yêu cầu | 🚧 |
+| 13 | Nâng cao báo cáo & xuất dữ liệu | Bổ sung xuất bảng thống kê doanh thu/công nợ (Excel/CSV), tối ưu truy vấn dashboard | 202414351 | Xuất file đúng số liệu, thời gian tải dashboard ≤ 2s | ⬜ |
+| 14 | Kiểm thử hiệu năng & bảo mật | Đo tải NFR01–NFR08 với dữ liệu lớn, kiểm tra băm mật khẩu và phân quyền (NFR09–NFR10) | 202414266 | Đạt chỉ tiêu phản hồi API và không rò rỉ quyền truy cập | ⬜ |
+| 15 | Đóng gói, triển khai & báo cáo | Hoàn thiện bản triển khai, quay video demo, chụp ảnh màn hình và hoàn tất báo cáo cuối kỳ | 202414351, 202414266 | Có bản demo chạy online, tài liệu và slide bảo vệ đầy đủ | ⬜ |
 
 ## 6. Nhóm & tuân thủ
-- Mã nhóm: n43  
-- Thành viên:
-  - 202414266: FE, BA.
-  - 202414351: BE, Database.
+- Mã nhóm: n43 · Thành viên: 202414266 – FE, BA. 202414351 – BE, Database.
 - ✅ Zero PII/PHI: toàn bộ dữ liệu là synthetic.
 - Công cụ AI đã dùng & phạm vi: Sử dụng trợ lý AI hỗ trợ sinh khung mã nguồn frontend/backend, tối ưu giao diện Tailwind CSS và soạn thảo tài liệu; nhóm tự rà soát, kiểm thử và điều chỉnh logic nghiệp vụ theo đặc tả môn học.
